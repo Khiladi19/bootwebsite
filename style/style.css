@@ -1,0 +1,417 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:#ffffff;
+    background-color: #0f0f10;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+body{
+    margin: 0 15vh;
+}
+/* logo img */
+img[alt="logo"]{
+    margin-top: 40px;
+}
+/* img of main  */
+img[alt="mainimg"]{
+    height: 550px;
+    width: 220px;
+    margin-left: 50px;
+    position: relative;
+    top: -110px;
+}
+/* header img */
+.header2{
+    display: flex;
+    margin-left: 100px;
+}
+/* list of item */
+nav ul{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    margin-left: -120px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* .beatintro{
+    display: flex;
+} */
+.beatinto{
+    margin-left: 100px;
+    margin-top: 180px;
+}
+/* img of on air */
+img[alt="onEar"]{
+    height: 70px;
+    margin-left: 40px;
+}
+.beatinto h1{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.beatinto h2{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.descrp{
+    margin-top: 25px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 209px;
+    height: 40px;
+    background-color: #1e1e21;
+    /* justify-content: space-around; */
+    border-radius: 5px;
+    padding: 2px 8px;
+    gap: 5px;
+}
+img[alt="shopingbagic"]{
+    margin-left: 10px;
+    width: 13px;
+    background-color: #1e1e21;
+}
+.btn p{
+    margin-left: 15px;
+    align-items: center;
+    font-size: 20px;
+    background-color: #1e1e21;
+}
+.btn span{
+    font-size: 12px;
+    background-color: #1e1e21;
+    align-items: center;
+}
+main{
+    margin-top: 100px;
+    display: flex;
+}
+main .mainlogo{
+    margin-left:270px;
+    display: flex;
+    align-items: center;
+    gap:150px;
+}
+.mainlogo img{
+    height:25px;
+}
+img[alt="youtubelogo"]{
+    height:15px;
+}
+img[alt="amazonlogo"]{
+    height:20px;
+}
+/* sectionmain */
+section{
+    margin-top: 100px;
+}
+/* section2  */
+.section2{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+img[alt="speceslogo"]{
+    margin-left:550px;
+    height: 50px;
+}
+img[alt="speces"]{
+    margin-top:50px;
+    height:270px;
+    margin-left: 100px;
+}
+.sectionicon{
+    margin-top:30px;
+    mrgin-left:10px;
+}
+
+.sectionicon img{
+    margin-top:20px;
+    height:20px;
+}
+.sectionicon p{
+    font-size:13px;
+}
+.bluetooth{
+    margin-left:35px;
+}
+.mic{
+    margin-left:35px;
+}
+img[alt="caselogo"]{
+    margin-left:550px;
+    height: 50px;
+}
+.section3{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+img[alt="caseimg"]{
+    height:300px;
+    margin-top:60px;
+}
+.intro2{
+    margin-left:40px;
+}
+.intro2 p{
+    font-size:13px;
+}
+.btncase{
+    margin-top: 40px;
+    background-color: #1e1e21;
+    height:40px;
+    width:150px;
+    display:flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;;
+}
+img[alt="group"]{
+    height:20px;
+    background-color: #1e1e21;
+}
+.btncase p{
+    background-color: #1e1e21;
+
+}
+.section4{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    background-color: #1e1e21;
+    margin-left:100px;
+    margin-right:100px;
+    border-radius: 15px;
+    height:300px;
+}
+
+.btnbuy,/* button */
+.buyimg,/*big img headphone*/
+.intro2,/* div class name  */
+.secion4 div h2{
+    margin-top: 70px;
+}
+/* div into */
+
+.intro3{
+    background-color: #1e1e21;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+
+
+.intro3 h2{
+    background-color: #1e1e21;
+    font-size:20px;
+}
+
+
+.into3 p{
+    background-color: #1e1e21;
+}
+
+
+.buyimg{
+    margin-left: 100px;
+    margin-top: 40px;
+ } 
+
+/* button buy img */
+ img[alt="buynow"]{
+    background-color: #1e1e21;
+    height:260px;
+    padding: 20px 40px;
+    /* padding: 4px 50px; */
+ }
+
+ /* buttonbuy */
+.btnbuy{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    background-color: #0f0f10;
+    justify-content: center;
+    border-radius: 5px;
+}
+/* shoping bag icon */
+img[alt="shopingbag"]{
+    height: 25px;
+    width:22px;
+    background-color: #0f0f10;
+}
+.intro3 p{
+    margin-top: 10px;
+    background-color: #1e1e21;
+    font-size: 15px;
+}
+/* button buy paragraph */
+.btnbuy p{
+    background-color: #0f0f10;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top:4px;
+}
+img[alt="productlogo"]{
+    margin-left:470px;
+    height:100px;
+}
+
+/* another section */
+.chooseyourstyle{
+    display:flex;
+    margin-top:100px;
+    margin-left:300px;
+    gap:50px;
+}
+.box{
+    width:130px;
+    height:130px;
+    background-color: #1e1e21;
+    border-radius: 10px;
+}
+/* box 5 under th */
+.box5{
+    margin-left:300px;
+    margin-top: 70px
+}
+.box5 img{
+    width:70px;
+    margin-left:30px;
+    position:relative;
+    top:-40px;
+    background: transparent;
+
+}
+.chooseyourstyle img{
+    width:70px;
+    margin-left:30px;
+    position:relative;
+    top:-40px;
+    background: transparent;
+    
+}
+img[alt="black"]{
+
+}
+/* shoping img of another section */
+img[alt="sopingbagbox"]{
+    margin-left:90px;
+    height:25px;
+    width:25px;
+    border: 1px spolid #0f0f10;
+    border-radius:5px;
+    margin-top:10px;
+    padding: 5px 5px;
+    background:black
+}
+/*box pargraph  */
+
+.box p{
+    margin-top: -10px;
+    margin-left:10px;
+    font-size:13px;
+    background-color: #1e1e21;
+    
+    
+}
+
+/* footer of  */
+footer{
+    margin-top:150px;
+    display:flex;
+    margin-left: 100px;
+    gap:170px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+}
+.productmenu {
+    margin-top:12px;
+    font-size: 12px;
+}
+.supportmenu{
+    margin-top:12px;
+    font-size: 12px;
+}
+.subcrtiob{
+    display: flex;
+    width: 100px;
+    height: 40px;
+}
+
+.subsriptionbtn{
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    height: 40px;
+    width:200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #0f0f10;
+}
+.subsriptionbtn img{
+    width: 19px;
+    height: 19px;
+    margin-left: 20px;
+}
+.subsriptionbtn p{
+    margin-left: 10px;
+}
+/* facebook inatagram twitter */
+.footericon{
+    display:flex;
+    margin-top:100px;
+    margin-left:-500px;
+    gap:20px;
+    
+}
+/* bordr of susribtion btn */
+.subcrtiob{
+    background-color: #1e1e21;
+    height: 50px;
+    width:340px;
+    border: 1px solid #0f0f10;
+    border-radius: 10px;
+}
+input{
+    border: none;
+    background-color: #1e1e21;
+    padding-left: 10px;
+    margin-top: 11px;
+    height: 30px;
+    width:200px;
+    margin-left: 10px;
+}
+.uparrow{
+    margin-left: 120px;
+}
+
+@media screen and (max-width:568px) {
+    
+}
