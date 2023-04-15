@@ -1,2 +1,2 @@
 # A file to learn git hub upload 
-how it upload and wrok g
+In this file is a web page of boat like website 
